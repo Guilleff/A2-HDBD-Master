@@ -2,7 +2,6 @@ import pickle
 import numpy as np
 import streamlit as st
 from streamlit_drawable_canvas import st_canvas
-import matplotlib.pyplot as plt
 from PIL import Image
 
 #Funcion para procesar el dibujo
