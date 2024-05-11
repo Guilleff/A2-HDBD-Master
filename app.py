@@ -3,6 +3,7 @@ import numpy as np
 import streamlit as st
 from streamlit_drawable_canvas import st_canvas
 from PIL import Image
+import keras
 
 #Funcion para procesar el dibujo
 def predict(data):
@@ -25,8 +26,12 @@ def predict(data):
     st.text(argmax)
 
 #Deserializar el modelo con pickle
-with open("cnnModel.pkl","rb") as f:
-    model = pickle.load(f)
+#with open("cnnModel.pkl","rb") as f:
+#    model = pickle.load(f)
+
+#Deserializar el modelo con keras
+model = keras.models.load_model('cnnModel.keras')
+
 
 #Informacion de la pagina
 st.title('Actividad 2 Guillermo Fernandez')
