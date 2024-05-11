@@ -3,3 +3,4 @@ streamlit_drawable_canvas
 streamlit
 Image
 tensorflow==2.16.1
+keras==3.3.2
