@@ -2,4 +2,4 @@ numpy
 streamlit_drawable_canvas
 streamlit
 Image
-tensorflow
+tensorflow==2.16.1
