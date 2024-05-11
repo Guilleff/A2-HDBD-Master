@@ -3,7 +3,6 @@ from tensorflow.keras import layers, models
 from keras.models import Sequential
 from tensorflow.keras.layers import Dense, Flatten
 from tensorflow.keras.datasets import mnist
-import matplotlib.pyplot as plt
 import pickle
 
 #Obtener datos
